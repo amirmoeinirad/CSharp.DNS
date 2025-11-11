@@ -7,6 +7,9 @@
 // Namespace: System.Net
 // Classes: Dns, IPHostEntry, IPAddress
 
+// How does the DNS class obtain the IP address of a domain?
+// It asks the DNS server configured on the local machine to resolve the domain name to its corresponding IP address.
+
 using System.Net;
 
 namespace DNS
